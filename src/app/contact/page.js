@@ -1,16 +1,14 @@
-import Link from 'next/link'
-export default function Home() {
+import Navbar from '../../app/component/nav'
+
+export default function contact() {
   return (
     <>
-    <center><h1>ช่องทางการติดต่อ</h1></center>
-  <br />
-<center>
- <Link href="/">หน้าแรก</Link> |
- <Link href="/about">เกี่ยวกับเรา</Link> |
- <Link href="/service">บริการของเรา</Link> |
- <Link href="/contact">ติดต่อเรา</Link>
- 
-</center>
-</>
+    <br/>
+    <Navbar/>
+    <br/>
+    <center>
+      <h1>ติดต่อเรา</h1>
+    </center>
+    </>
   );
 }
